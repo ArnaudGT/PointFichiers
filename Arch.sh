@@ -39,6 +39,7 @@ PKGS=(
 'wine'
 'winetricks'
 'flatpak'
+'git'
 )
 
 for PKG in "${PKGS[@]}"; do
@@ -52,11 +53,11 @@ echo "-------------"
 
 pip install konsave
 konsave --noconfirm
-cd ~/installation/
-konsave -i pointfichiers.knsv
+cd  ~/PointFichiers/
+konsave -i Argama.knsv
 cd ~
 sleep 1
-konsave -a pointfichiers
+konsave -a Argama
 
 echo "----------------"
 echo "// Youtube-DL //"
@@ -71,5 +72,16 @@ echo "--------------------"
 if lspci | grep -E "NVIDIA|GeForce"; then
     sudo mhwd -a pci nonfree 0300
 fi
+
+echo "--------------------"
+echo "// Fichiers Hosts //"
+echo "--------------------"
+
+git clone https://github.com/StevenBlack/hosts.git ~/PointFichiers/Hosts 
+cd ~/PointFichiers/Hosts
+pip3 install --user -r requirements.txt
+python3 testUpdateHostsFile.py
+python3 updateHostsFile.py -e gambling
+cd
 
 exit
