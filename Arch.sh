@@ -53,7 +53,7 @@ echo "-------------"
 
 pip install konsave
 konsave --noconfirm
-cd  ~/PointFichiers/
+cd ~/PointFichiers/
 konsave -i Argama.knsv
 cd ~
 sleep 1
@@ -85,6 +85,18 @@ echo "#testUpdateHostsFile.py"
 python3 testUpdateHostsFile.py
 echo "#updateHostsFile.py"
 python3 updateHostsFile.py -e gambling
-cd
+cd ~
+
+echo "--------------------"
+echo "// XP-Pen Drivers //"
+echo "--------------------"
+
+cd ~/PointFichiers/
+wget -O xp-pen.tar.gz --referer https://www.xp-pen.fr/ 'https://www.xp-pen.fr/download/file/id/1945/pid/292/ext/gz.html'
+mkdir ~/PointFichiers/XP-pen
+tar -x -f  xp-pen.tar.gz -C ~/PointFichiers/XP-pen --strip-components 1
+cd ~/PointFichiers/XP-pen
+sudo sh install.sh
+cd ~
 
 exit
