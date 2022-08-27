@@ -28,10 +28,6 @@ echo "// Installation des REPOS //"
 echo "----------------------------"
 
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-
-sudo rpm --import https://keys.openpgp.org/vks/v1/by-fingerprint/034F7776EF5E0C613D2F7934D29FBD5F93C0CFC3
-sudo dnf config-manager --add-repo https://rpm.librewolf.net
-
 sudo dnf upgrade
 
 echo "----------------------------------"
@@ -46,7 +42,7 @@ PKGS=(
 'lutris'
 'wine'
 'winetricks'
-'librewolf'
+'mpv'
 )
 
 for PKG in "${PKGS[@]}"; do
@@ -58,7 +54,7 @@ echo "---------------------------------------"
 echo "// Installations des packets Flatpak //"
 echo "---------------------------------------"
 
-sh Flatpak.sh
+sh ~/PointFichiers/Flatpak.sh
 
 echo "-------------"
 echo "// Konsave //"
@@ -66,11 +62,12 @@ echo "-------------"
 
 pip install konsave
 konsave --noconfirm
-cd ~/installation/
-konsave -i pointfichiers.knsv
+cd ~/PointFichiers/
+konsave -i Argama.knsv
 cd ~
 sleep 1
-konsave -a pointfichiers
+konsave -a Argama
+
 
 echo "----------------"
 echo "// Youtube-DL //"
@@ -84,5 +81,31 @@ echo "--------------------"
 
 sudo dnf install akmod-nvidia
 sudo dnf install xorg-x11-drv-nvidia-cuda
+
+echo "--------------------"
+echo "// Fichiers Hosts //"
+echo "--------------------"
+
+git clone https://github.com/StevenBlack/hosts.git ~/PointFichiers/Hosts 
+cd ~/PointFichiers/Hosts
+echo "#requirements.txt"
+pip3 install --user -r requirements.txt
+echo "#testUpdateHostsFile.py"
+python3 testUpdateHostsFile.py
+echo "#updateHostsFile.py"
+python3 updateHostsFile.py -e gambling
+cd ~
+
+echo "--------------------"
+echo "// XP-Pen Drivers //"
+echo "--------------------"
+
+cd ~/PointFichiers/
+wget -O xp-pen.tar.gz --referer https://www.xp-pen.fr/ 'https://www.xp-pen.fr/download/file/id/1945/pid/292/ext/gz.html'
+mkdir ~/PointFichiers/XP-pen
+tar -x -f  xp-pen.tar.gz -C ~/PointFichiers/XP-pen --strip-components 1
+cd ~/PointFichiers/XP-pen
+sudo sh install.sh
+cd ~
 
 exit
