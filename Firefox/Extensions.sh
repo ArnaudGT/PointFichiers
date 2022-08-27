@@ -26,6 +26,6 @@ for PKG in "${PKGS[@]}"; do
     wget "$PKG"
 done
 
-for file in "~/PointFichiers/Firefox/Extensions/"; do
+for file in "~/PointFichiers/Firefox/Extensions/s"; do
     firefox "$file"
 done
