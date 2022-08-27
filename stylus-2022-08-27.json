@@ -1,0 +1,483 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/163165.user.css",
+    "url": "https://uso.kkx.one/style/163165",
+    "installDate": 1658786570533,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           ANN Dark Theme\n@namespace      USO Archive\n@author         Slick Boy D\n@description    `Darker look for AnimeNewsNetwork that's easier on the eyes.The whole site is aligned in the center now.`\n@version        20200525.13.17\n@license        CC0-1.0\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"animenewsnetwork.com\"), domain(\"animenewsnetwork.co.uk\") {\n#canvas div {\n\tmax-width: 1240px!important;\n}\n#canvas > div,\n#main {\n\twidth: 1280px !important;\n\tmargin: auto !important;\n\tbackground: rgb(16,16,16);\n\tcolor: rgb(255, 255, 255)\n}\nbody {\n\tbackground-image: unset !important;\n\tbackground-color: rgb(16,16,16) !important;\n}\n}\n\n@-moz-document domain(\"animenewsnetwork.com\"), domain(\"animenewsnetwork.co.uk\") {\n::-webkit-scrollbar {\n\tbackground:rgb(0,0,0);\n    width: 10px;\n    height: 7px;\n}\n::-webkit-scrollbar-thumb {\n    background: rgb(87, 87, 87)!important;\n}\n.ror-css h1#page_header {\n\tcolor: rgb(88, 203, 255);\n}\n.ror-css #page-title {\n\tcolor: rgb(88, 203, 255);\n\tborder-bottom: 2px solid rgb(88, 203, 255);\n}\n.ror-css cite.e a:link,\n.ror-css a.ENCYC:link {\n\tcolor: rgb(91, 252, 223)!important;\n\ttext-decoration: none;\n}\n.ror-css a:link {\n\tcolor: rgb(163, 194, 255);\n}\nnav#mega {\n\tdisplay: block;\n\tcolor: #fff;\n\tbackground-color: rgb(40,40,40);\n\tposition: relative;\n\tborder-radius: 5px;\n}\n#marquee {\n\tbackground: #fff;\n\tborder-radius: 5px;\n}\nbody.mobile-mode-0 #mainfeed .controls {\n\tbackground-color: rgb(16,16,16);\n\tborder-radius: 5px;\n}\n#mainfeed .filters {\n\tcolor: rgb(91, 252, 223)!important;\n}\n#mainfeed .section-title {\n\tborder-top: 0px;\n\tcolor: rgb(255, 255, 255);\n}\n#mainfeed .filters .selected {\n\tcolor: rgb(163, 194, 255)!important;\n}\na[href*=\"/\"] {\n\tcolor: rgb(91, 252, 223);\n}\na[href*=\"/\"]:hover {\n\tcolor: rgb(91, 252, 223);\n}\n.herald-boxes .herald.box .wrap .preview .full {\n\tcolor: rgb(255, 255, 255);\n}\n#aside.herald-boxes .box {\n\tbackground: rgb(40,40,40);\n}\nh1 a:visited,\nh2 a:visited,\nh3 a:visited {\n\tcolor: rgb(91, 252, 223)!important;\n}\na[href*=\"/2018\"]:visited {\n\tcolor: rgb(91, 252, 223)!important;\n}\nh1 a,\nh2 a,\nh3 a {\n\tcolor: rgb(91, 252, 223);\n}\n#sidebar .box {\n\tbackground: rgb(16,16,16);\n}\n#sidebar .options-menu {\n\tbackground: rgb(16,16,16);\n}\n#mainfeed.grid-view .mainfeed-section .preview-only.herald.box .preview:before,\nhtml.grid-mode-not-1 .grid-view .mainfeed-section .herald.box .preview:before,\nhtml.grid-mode-not-1.sidebar-mode-0 #sidebar .herald.box .preview:before{\n\tbackground-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 85%, rgba(16,16,16, 0.9) 100%);\n}\n#aside .preview-only.herald.box .preview:before{\n\tbackground-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 85%, rgba(40,40,40, 0.9) 100%);\n}\n#header .buttons .social-button.facebook {\n\tbackground-image: url(https://www.animenewsnetwork.com/stylesheets/img/iconmap.png);\n\tbackground-position: -485px -5px;\n}\n#header .buttons .social-button.twitter {\n\tbackground-image: url(https://www.animenewsnetwork.com/stylesheets/img/iconmap.png);\n\tbackground-position: -517px -5px;\n}\n.ror-css .interest.area #page-title,\n.ror-css .interest.area #page-title h1 {\n\tcolor: rgb(88, 203, 255);\n\tborder-color: rgb(88, 203, 255);\n}\n#header #searchbox input {\n    border: 1px solid rgba(253, 253, 253, .2);\n    background: rgb(40,40,40);\n\tcolor: white;\n}\n.php-css a:visited {\n    color: rgb(88, 203, 255)!important;\n}\n.php-css a:link {\n    color: rgb(88, 203, 255);\n}\n.php-css .encyc-info-type.articles .S2, .php-css .encyc-info-type.articles .S2 a {\n    color: rgb(88, 203, 255);\n}\n.php-css .encyc-info-type.articles .S1, .php-css .encyc-info-type.articles .S1 a {\n    color: rgb(88, 203, 255);\n}\n.php-css .my-anime-rating, .php-css .encyc-interactive {\n    background-color: rgb(87, 87, 87);\n\tborder: 1px solid rgb(198, 198, 198);\n}\n.php-css #page-title h1#page_header.same-width-as-main{\n    color: rgb(88, 203, 255);\n    border-bottom: 2px solid rgb(88, 203, 255);\n}\nh3, a{\n\tcolor: rgb(88, 203, 255);\n}\n.herald-boxes .herald.box .thumbnail .comments {\n    background: rgba(0, 0, 0, 0.65);\n}\nh1, h2, h3 {\n\tcolor: rgb(88, 203, 255);\t\n}\n.php-css .nav {\n\tcolor: rgb(255, 255, 255);\n}\n.php-css .gen, .php-css .genmed, .php-css .gensmall {\n\tcolor: rgb(255, 255, 255);\n}\n.php-css .forumzone a:link, .php-css .forumzone a:visited {\n\tcolor: rgb(88, 203, 255)!important;\n}\n.php-css td.row2, .php-css td.row1 {\n    background-color: rgb(85, 85, 85);\n}\n.php-css .postdetails {\n    color: rgb(255, 255, 255);\n}\n.php-css .postbody {\n    color: rgb(255, 255, 255);\n}\n.php-css .name {\n    color: rgb(147, 241, 251);\n}\n.php-css td.cat, .php-css td.catHead, .php-css td.catBottom {\n    height: 29px;\n    border-width: 0;\n    background: rgb(87, 87, 87);\n}\n.php-css #maincontent .forumline th {\n    background-color: rgb(88, 203, 255);\n    background-image: none;\n    color: #000;\n}\n.php-css th.thLeft, .php-css td.catLeft {\n    border-width: 0 0 0 0;\n}\n.php-css th.thHead, .php-css th.thSides, .php-css th.thTop, .php-css th.thLeft, .php-css th.thRight, .php-css th.thBottom, .php-css th.thCornerL, .php-css th.thCornerR {\n\tborder:0;\n}\n.php-css .copyright {\n    color: rgb(255, 255, 255);\n}\n#main .forum.area table.forumline {\n    min-width: 900px;\n}\n.php-css #page-title {\n    border-bottom: 2px solid rgb(88, 203, 255);\n    margin-bottom: 10px;\n    padding-bottom: 3px;\n}\n.php-css font, .php-css th, .php-css td, .php-css p {\n    font-family: Arial,Helvetica,sans-serif;\n    color: rgb(255, 255, 255);\n}\n.ror-css cite.e a:visited, .ror-css a.ENCYC:visited {\n    color: rgb(91, 252, 174)!important;\n}\n#searchbox{\n\tbackground: rgb(16,16,16);\n}\n#mainfeed .controls{\n\tbackground: rgb(40,40,40);\n\tborder-radius: 5px;\n}\n.gsc-webResult.gsc-result, .gsc-webResult.gsc-result:hover, .gsc-control-cse, .gsc-control-cse .gsc-table-result{\n\tbackground: rgb(16,16,16);\n\tborder: none;\n}\n.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b, .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b{\n\tcolor: rgb(91, 252, 223)!important;\n}\n.gs-webResult.gs-result:hover a.gs-title:link, .gs-webResult.gs-result:hover a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult:hover a.gs-title:link b, .gs-webResult.gs-result:hover a.gs-title:visited, .gs-webResult.gs-result:hover a.gs-title:visited b, .gs-imageResult:hover a.gs-title:visited, .gs-imageResult:hover a.gs-title:visited b:hover{\n\tcolor: rgb(0, 255, 60);\n}\n.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {\n\tcolor: rgb(201, 237, 230);\n}\n.gsc-preview-reviews, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em{\n\tcolor: rgb(255, 255, 255);\n}\n.gsc-results-wrapper-visible{\n\tbackground: rgb(16,16,16);\n\tborder: rgb(40,40,40)!important;\n}\n.gsc-tabHeader.gsc-tabhActive{\n\tbackground: rgb(40,40,40)!important;\n\tcolor: white;\n\tborder-width: 1px 0;\n}\n.gsc-tabHeader.gsc-tabhInactive, .gsc-refinementHeader.gsc-refinementhInactive{\n\tbackground: rgb(16,16,16)!important;\n\tcolor: white;\n\tborder-width: 1px 0;\n}\n.gsc-tabHeader.gsc-tabhInactive:hover, .gsc-refinementHeader.gsc-refinementhInactive:hover{\n\tbackground: rgb(40,40,40)!important;\n}\n.gsc-above-wrapper-area{\n\tborder: none;\n}\n.gsc-tabsArea{\n\tborder-color: rgb(40,40,40);\n}\na[href*=\"/\"]{\n\tcolor: rgb(91, 252, 223);\n}\n.php-css a.postlink:visited {\n\tcolor: rgb(91, 252, 223)!important;\n}\n.php-css a.postlink:link{\n\tcolor: rgb(91, 252, 223)!important;\n}\n.php-css .quote{\n\tbackground: rgb(59, 59, 59);\n\tcolor: white;\n}\nnav#mega span{\n\tcursor: pointer!important;\n}\nnav#mega span:hover{\n\tbackground: #39c;\n}\n#header .logo img {\n\topacity: 0;\n}\n#header > div.left.half > div > div.actionable.logo{\n\tbackground: url(https://i.imgur.com/tbPaOXR.png)no-repeat ;\n\tbackground-size: 100%;\n\theight: 40px;\n}\n.herald-boxes .more{\n    background: rgb(30,30,30);\n\ttext-decoration: none;\n}\n.herald-boxes .more:hover{\n    background: rgb(30,30,30);\n\ttext-decoration: underline;\n\tcolor: rgb(91, 252, 223);\n}\n#header > div.right.half > div > div.actionable.buttons{\n    filter: invert(1) hue-rotate(180deg);\n}\n#header .edition .button{\n\tbackground: rgb(59, 59, 59);\n\tcolor: rgb(91, 252, 223);\n\tborder-color:rgb(87, 87, 87)!important;\n\ttext-shadow: none;\n}\n#prompt-message{\n\tbackground: rgb(87,87,87);\n\tborder-color: rgb(91, 252, 223);\n}\n#prompt-message > del{\n\tcolor: rgb(91, 252, 223);\n\tline-height: 20px;\n\tfont-size: 20px;\n\ttransition: .2s;\n}\n#prompt-message > del:hover{\n\tbackground: transparent;\n\ttext-shadow: 0px 0px 5px;\n\ttransition: .2s;\n}\n#sidebar > div > div.herald-boxes{\n\tbackground: rgba(16,16,16)\n}\n.gsc-search-box-tools .gsc-search-box .gsc-input{\n\tbackground: rgb(16,16,16)!important;\n\tcolor: white;\n}\ninput.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus{\n\tborder-color: rgb(40,40,40);\n}\n.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus{\n\tbackground: rgb(16,16,16);\n\tborder-color: rgb(40,40,40);\n\tborder-radius: 0;\n\theight: 33px;\n}\n.gsc-results .gsc-cursor-box .gsc-cursor-page{\n\tbackground: rgb(40,40,40);\n\tborder-radius: 14px;\n\tpadding: 7px;\n}\n.gsc-results .gsc-cursor-box .gsc-cursor-current-page{\n\tcolor:rgb(91, 252, 223);\n}\n#content-zone > div > table:nth-child(3) > tbody > tr > td{\n\tmargin-top: 0px!important;\n}\n#searchbox > form > ul{\n\tborder: none;\n}\nform.search .search-suggest li{\n\tbackground: rgb(40, 40, 40)!important;\n}\nform.search .search-suggest li.selected, form.search .search-suggest li:hover{\n\tbackground: rgb(60,60,60)!important;\n}\n.ror-css .star_rating .stars{\n    background: url(https://i.imgur.com/2T9gzbl.png) repeat!important;\n\tbackground-size: 20% 100%!important;\n}\n.ror-css .star_rating.no-rating{\n\tbackground: rgb(40,40,40);\n}\n.ror-css .star_rating{\n\tbackground: rgb(40,40,40);\n}\n}",
+    "usercssData": {
+      "name": "ANN Dark Theme",
+      "namespace": "USO Archive",
+      "author": "Slick Boy D",
+      "description": "Darker look for AnimeNewsNetwork that's easier on the eyes.The whole site is aligned in the center now.",
+      "version": "20200525.13.17",
+      "license": "CC0-1.0",
+      "preprocessor": "uso"
+    },
+    "author": "Slick Boy D",
+    "description": "Darker look for AnimeNewsNetwork that's easier on the eyes.The whole site is aligned in the center now.",
+    "name": "ANN Dark Theme",
+    "originalDigest": "7751acff78fbcd1f444fda88be61df7f8d103437",
+    "_id": "b4f7d5ea-c6bd-4a29-a62c-ff6d197a576b",
+    "_rev": 1658786570535,
+    "installationUrl": "https://uso.kkx.one/style/163165",
+    "id": 1,
+    "etag": "W/\"284d-IbCJTeRMPpeguZnlxYOB2LxMCEU\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/1397.user.css",
+    "url": "https://github.com/sabakuran/personal-stylesheets",
+    "installDate": 1658876240640,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "us = \"Lunar Duck v2.2.1 🌸 sabakuran\"\n\n/* ==UserStyle==\n@name         nyaa.si - Lunar Duck\n@namespace    sabakuran\n@description  DDG inspired theme for nyaa.si\n@author       sabakuran (https://github.com/sabakuran)\n@homepageURL  https://github.com/sabakuran/personal-stylesheets\n@supportURL   https://github.com/sabakuran/personal-stylesheets/issues\n@updateURL    https://userstyles.world/api/style/1397.user.css\n@preprocessor stylus\n@version      2.2.1\n@license      WTFPL\n===================\n@var select cs \"Color scheme\" {\n    \"Default*\":\"cs-dark\",\n    \"Miku\":\"cs-cyan\",\n    \"Luka\":\"cs-pink\",\n    \"Rin\":\"cs-yellow\",\n    \"Teto\":\"cs-red\",\n    \"Gumi\":\"cs-green\",\n    \"Kaito\":\"cs-blue\",\n}\n@var checkbox xdarkbtn \"Hide dark mode toggle\" 1\n@var checkbox navstick \"Enable sticky navbar\" 1\n@var checkbox avarnd \"Enable rounded avatars\" 1\n@var checkbox imgshad \"Enable image shadows\" 1\n@var checkbox avashad \"Enable avatar shadows\" 1\n@var select imgsat \"Image saturation\" {\n  \"Greyscale\":\"0%\",\n  \"10%\":\"10%\",\n  \"20%\":\"20%\",\n  \"30%\":\"30%\",\n  \"40%\":\"40%\",\n  \"Half\":\"50%\",\n  \"60%\":\"60%\",\n  \"70%\":\"70%\",\n  \"80%\":\"80%\",\n  \"90%\":\"90%\",\n  \"Default*\":\"100%\"\n}\n@var select avasat \"Avatar saturation\" {\n  \"Greyscale\":\"0%\",\n  \"10%\":\"10%\",\n  \"20%\":\"20%\",\n  \"30%\":\"30%\",\n  \"40%\":\"40%\",\n  \"Half\":\"50%\",\n  \"60%\":\"60%\",\n  \"70%\":\"70%\",\n  \"80%\":\"80%\",\n  \"90%\":\"90%\",\n  \"Default*\":\"100%\"\n}\n@var select density \"Table density\" {\n    \"Default*\":\"none\",\n    \"Comfortable\":\"10px\",\n    \"Compact\":\"dens-compact\"\n}\n@var select prad \"Rounded corners\" {\n  \"None\":\"0\",\n  \"Default*\":\"4px\",\n  \"8px\":\"8px\",\n  \"12px\":\"12px\"\n}\n@var checkbox xcw \"Adjust container width\" 0\n@var range cw \"Container width\" [1400, 1150, 1900, 10,\"px\"]\n@var checkbox xus \"Show userstyle attribution\" 1\n==/UserStyle== */\n\n@-moz-document regexp(\"https?:\\\\/\\\\/(.+\\\\.)?(nyaa|fap(?!\\\\.lol))\\\\.(si|lol|iss\\\\.(one|ink))\\\\/.*\")\n  \n  i = !important\n  \n  :root\n    --txt hsla(0, 0%, 100%, .8)\n    --txt-act hsl(0, 0%, 100%)\n    --txt-sub hsla(0, 0%, 100%, .5)\n    --txt-ph hsla(0, 0%, 100%, .3)\n    --txt-succ hsl(150, 50%, 50%)\n    --txt-succ-act hsl(150, 50%, 80%)\n    --bg-succ hsl(150, 30%, 20%)\n    --txt-warn hsl(35, 50%, 50%)\n    --bg-warn hsl(35, 30%, 20%)\n    --txt-dang hsl(360, 50%, 50%)\n    --bg-dang hsl(360, 30%, 20%)\n    --txt-info hsl(225, 50%, 50%)\n    --bg-info hsl(225, 30%, 20%)\n    if cs == \"cs-dark\"\n      --bg-1 hsl(0, 0%, 10%)\n      --bg-2 hsl(0, 0%, 5%)\n      --bg-3 hsl(0, 0%, 15%)\n      --bg-4 hsl(0, 0%, 20%)\n      --bg-5 hsl(0, 0%, 25%)\n      --bg-6 hsl(0, 0%, 45%)\n      --txt-lnk hsl(225, 100%, 70%)\n      --txt-lnk-act hsl(225, 100%, 80%)\n    else if cs == \"cs-pink\"\n      --bg-1 hsl(315, 20%, 10%)\n      --bg-2 hsl(315, 20%, 5%)\n      --bg-3 hsl(325, 20%, 20%)\n      --bg-4 hsl(330, 15%, 25%)\n      --bg-5 hsl(330, 15%, 30%)\n      --bg-6 hsl(330, 15%, 50%)\n      --txt-lnk hsl(335, 45%, 60%)\n      --txt-lnk-act hsl(335, 45%, 80%)\n    else if cs == \"cs-cyan\"\n      --bg-1 hsl(185, 20%, 10%)\n      --bg-2 hsl(185, 20%, 5%)\n      --bg-3 hsl(185, 100%, 10%)\n      --bg-4 hsl(185, 30%, 20%)\n      --bg-5 hsl(185, 15%, 40%)\n      --bg-6 hsl(185, 30%, 45%)\n      --txt-lnk hsl(190, 45%, 60%)\n      --txt-lnk-act hsl(190, 45%, 80%)\n    else if cs == \"cs-yellow\"\n      --bg-1 hsl(50, 20%, 10%)\n      --bg-2 hsl(50, 20%, 5%)\n      --bg-3 hsl(50, 100%, 10%)\n      --bg-4 hsl(50, 30%, 20%)\n      --bg-5 hsl(50, 15%, 40%)\n      --bg-6 hsl(50, 30%, 45%)\n      --txt-lnk hsl(50, 45%, 60%)\n      --txt-lnk-act hsl(50, 45%, 80%)\n    else if cs == \"cs-red\"\n      --bg-1 hsl(0, 20%, 10%)\n      --bg-2 hsl(0, 20%, 5%)\n      --bg-3 hsl(0, 100%, 10%)\n      --bg-4 hsl(0, 30%, 20%)\n      --bg-5 hsl(0, 15%, 40%)\n      --bg-6 hsl(0, 30%, 45%)\n      --txt-lnk hsl(0, 45%, 60%)\n      --txt-lnk-act hsl(0, 45%, 80%)\n    else if cs == \"cs-green\"\n      --bg-1 hsl(140, 20%, 10%)\n      --bg-2 hsl(140, 20%, 5%)\n      --bg-3 hsl(140, 100%, 10%)\n      --bg-4 hsl(140, 30%, 20%)\n      --bg-5 hsl(140, 15%, 40%)\n      --bg-6 hsl(140, 30%, 45%)\n      --txt-lnk hsl(140, 45%, 60%)\n      --txt-lnk-act hsl(140, 45%, 80%)\n    else if cs == \"cs-blue\"\n      --bg-1 hsl(200, 20%, 10%)\n      --bg-2 hsl(200, 20%, 5%)\n      --bg-3 hsl(200, 100%, 10%)\n      --bg-4 hsl(200, 30%, 20%)\n      --bg-5 hsl(200, 15%, 40%)\n      --bg-6 hsl(200, 30%, 45%)\n      --txt-lnk hsl(200, 45%, 60%)\n      --txt-lnk-act hsl(200, 45%, 80%)\n\n  pan1()\n    background-color var(--bg-1)\n    color var(--txt)\n  shad()\n    box-shadow 0 1px 3px hsla(0, 0%, 0%, .5)\n  rad()\n    border-radius prad\n  sharad()\n    shad()\n    rad()\n    \n  // scrollbar\n  html\n    // chromium\n    ::-webkit-scrollbar\n      width 15px\n    ::-webkit-scrollbar-track\n      background-color var(--bg-2)\n      border-left 1px solid var(--bg-3)\n    ::-webkit-scrollbar-thumb\n      background-color var(--bg-4)\n      border-radius 0\n      &:hover\n        background-color var(--bg-6)\n    // firefox\n    scrollbar-color var(--bg-4) var(--bg-2)\n    scrollbar-width auto\n    \n  // adjust container width\n  if xcw\n    .container\n      width cw\n  \n  // torrentlist adjust padding\n  .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td\n  table.torrent-list td:first-child\n    if density == \"dens-compact\"\n      padding 0 5px 0 5px\n    padding density\n      \n  // workaround for table border radius\n  th:first-child\n    border-top-left-radius prad - 6px\n  th:last-child\n    border-top-right-radius prad -6px\n  tr:last-child td:last-child\n    border-bottom-right-radius prad - 6px\n  tr:last-child td:first-child\n    border-bottom-left-radius prad - 6px\n      \n  body\n    pan1()\n  a\n    color var(--txt-lnk)\n    &:hover, &:focus\n      color var(--txt-lnk-act)\n      text-decoration none\n      outline none // for cats in search\n  blockquote\n    sharad()\n    background-color var(--bg-1)\n    border-left 5px solid var(--bg-5)\n  pre\n    pan1()\n    sharad()\n    border-color var(--bg-1)\n  code\n    sharad()\n    background-color var(--bg-5)\n    color var(--txt)\n  pre code\n    box-shadow none\n  kbd\n    sharad()\n    color var(--txt)\n    background-color var(--bg-4)\n  hr\n    border-top 1px solid var(--bg-4)\n  \n  // navbar\n  .navbar\n    shad()\n  .navbar-inverse\n    background-color var(--bg-2)\n    border-color var(--bg-3)\n  .navbar-inverse .navbar-brand\n    color var(--txt)\n  .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus\n    color var(--txt-act)\n    background-color transparent\n  .navbar-inverse .navbar-nav > li > a\n    color var(--txt)\n  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus\n    background-color transparent\n    color var(--txt-act)\n  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus\n    background-color var(--bg-3)\n    color var(--txt-act)\n  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus\n    background-color var(--bg-3)\n    color var(--txt-act)\n  // navbar mobile\n  .navbar-toggle\n    background-color var(--bg-4)\n    rad()\n  .navbar-inverse .navbar-toggle\n    border-color var(--bg-4)\n  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus\n    background-color var(--bg-6)\n  // dropdown menu\n  .dropdown-menu\n    sharad()\n    background-color var(--bg-3)\n    border 1px solid var(--bg-3)\n    li a\n      color var(--txt)\n  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus\n    background-color var(--bg-5)\n    color var(--txt)\n  .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus\n    background-color var(--bg-5)\n    color var(--txt)\n  .bootstrap-select .dropdown-toggle:focus\n    outline none i\n  // searchbar\n  .form-control\n    sharad()\n    background-color var(--bg-4)\n    color var(--txt)\n    border 1px solid var(--bg-4)\n    transition none\n    &:focus\n      box-shadow none\n      border-color var(--bg-4)\n  .form-control::placeholder\n    color var(--txt-ph)\n    opacity 1 // firefox\n  .form-control.search-bar\n    box-shadow none\n  .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control\n    background-color var(--bg-3)\n  .input-group .form-control:last-child, .input-group-addon:last-child\n    border 1px solid var(--bg-3)\n  .navbar-form .input-group\n    shad()\n  .input-group-btn .btn // suppress shadow in search button\n    box-shadow none\n  #navFilter-criteria > .bootstrap-select:first-child > button\n    border-top-left-radius prad i\n    border-bottom-left-radius prad i\n    \n  // make navbar sticky\n  if navstick\n    .navbar\n      position sticky\n      top 0\n    \n  // buttons\n  .btn\n    rad()\n  .btn-default\n    background-color var(--bg-4)\n    color var(--txt)\n    border-color var(--bg-4)\n  .btn-default:hover, .btn-default:active:hover, .btn-default.active:hover, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus\n    background-color var(--bg-6)\n    color var(--txt)\n    border 1px solid var(--bg-6)\n  .btn-default:focus, .btn-default.focus\n    background-color var(--bg-4)\n    color var(--txt)\n    border: 1px solid var(--bg-4)\n    &:hover\n      background-color var(--bg-6)\n  .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus\n    outline none\n  .btn-primary\n    shad()\n    color var(--txt)\n    background-color var(--bg-4)\n    border 1px solid var(--bg-4)\n  .btn-primary:hover, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:focus, .btn-primary.focus\n    color var(--txt)\n    background-color var(--bg-6)\n    border: 1px solid var(--bg-6)\n  \n  // pagination\n  .pagination\n    shad()\n  .pagination-page-info\n    margin-top 20px\n  .pagination > li > a, .pagination > li > span\n    background-color var(--bg-4)\n    color var(--txt)\n    border 0\n  .pagination > li:first-child > a, .pagination > li:first-child > span\n    border-top-left-radius prad\n    border-bottom-left-radius prad\n  .pagination > li:last-child > a, .pagination > li:last-child > span\n    border-top-right-radius prad\n    border-bottom-right-radius prad\n  .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus\n    background-color var(--bg-3)\n  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus\n    background-color var(--bg-5)\n  .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus\n    background-color var(--bg-6)\n    color var(--txt)\n    \n  // table\n  // torrent list odd row\n  .table-striped > tbody > tr:nth-of-type(2n+1)\n    background-color var(--bg-3)\n  // torrent list remake\n  .table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th\n    background-color var(--bg-dang)\n  // torrent list trusted\n  .table > thead > tr > td.success, .table > tbody > tr > td.success, .table > tfoot > tr > td.success, .table > thead > tr > th.success, .table > tbody > tr > th.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > tbody > tr.success > td, .table > tfoot > tr.success > td, .table > thead > tr.success > th, .table > tbody > tr.success > th, .table > tfoot > tr.success > th\n    background-color var(--bg-succ)\n  // torrent list comments\n  table.torrent-list tbody .comments\n    sharad()\n    background-color var(--bg-4)\n    color var(--txt) i\n    border 1px solid var(--bg-4)\n  // torrent list borders\n  .table\n    margin-bottom 0\n  .table-bordered\n    border 5px solid var(--bg-3)\n  .table-responsive\n    sharad()\n  @media screen and (max-width: 991px)\n    .table-responsive\n      border 5px solid var(--bg-3)    \n  .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td\n    border 0\n  // torrent list suppress visited link state\n  table.torrent-list tbody tr td a:visited\n    color var(--txt-lnk)\n    &:hover, &:focus\n      color var(--txt-lnk-act)\n  // selection highlighting\n  .table-hover > tbody > tr:hover,\n  .table-hover > tbody > tr > td.danger:hover, .table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th,\n  .table-hover > tbody > tr > td.success:hover, .table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th\n    background-color var(--bg-5)\n  // torrent description\n  #torrent-description .table-bordered\n    sharad()\n    border 5px solid var(--bg-4)\n    border-collapse separate\n  #torrent-description .table-bordered thead\n    background-color var(--bg-1)\n  #torrent-description .table-striped > tbody > tr:nth-of-type(2n+1)\n    background-color var(--bg-4)\n  #torrent-description .table\n    margin-bottom 20px\n  \n  // seed/leech colors\n  // individual torrent meta\n  .col-md-5 span[style=\"color: green;\"]\n    color var(--txt-succ) i\n  .col-md-5 span[style=\"color: red;\"]\n    color var(--txt-dang) i\n  // torrent list\n  table.torrent-list td:nth-child(6), body.dark table.torrent-list > tbody > tr.success > td:nth-child(6), body.dark table.torrent-list > tbody > tr.danger > td:nth-child(6)\n    color var(--txt-succ)\n  table.torrent-list td:nth-child(7), body.dark table.torrent-list > tbody > tr.success > td:nth-child(7), body.dark table.torrent-list > tbody > tr.danger > td:nth-child(7)\n    color var(--txt-dang)\n    \n  // panels\n  .panel\n    sharad()\n    background-color var(--bg-3)\n  .panel-default\n    border-color var(--bg-3)\n  .panel-success\n    border-color var(--bg-succ)\n  .panel-danger\n    border-color var(--bg-dang)\n  // panel headings\n  .panel-heading\n    border-top-right-radius prad\n    border-top-left-radius prad\n  .panel-default .panel-heading\n    shad()\n    background-color var(--bg-4)\n    color var(--txt)\n    border-color var(--bg-3)\n  .panel-success .panel-heading\n    shad()\n    background-color var(--bg-succ)\n    color var(--txt-succ)\n    border-color var(--bg-succ)\n  .panel-danger .panel-heading\n    shad()\n    background-color var(--bg-dang)\n    color var(--txt-dang)\n    border-color var(--bg-dang)\n  // panel footer\n  .panel-footer\n    background-color var(--bg-4)\n    border-top 1px solid var(--bg-3)\n    border-bottom-right-radius prad\n    border-bottom-left-radius prad\n    \n  // notification panels\n  .alert-info\n    background-color var(--bg-info)\n    color var(--txt-info)\n    border-color var(--bg-info)\n  // comment panels\n  .comment-panel\n    shad()\n    background-color var(--bg-4)\n    border-color var(--bg-4)\n  // targeted comment (if user clicks on timestamp)\n  .comment-panel:target\n    shad()\n    background-color var(--bg-info)\n    border-color var(--bg-info)\n  \n  // category icons\n  .category-icon\n    filter saturate(50%)\n    \n  // submitter colors\n  .text-success\n    color var(--txt-succ)\n    &:hover, &:focus\n      color var(--txt-succ-act) i\n  \n  // upload page\n  // markdown preview\n  .well\n    sharad()\n    background-color var(--bg-3)\n    border 1px solid var(--bg-3)\n  .well blockquote\n    border-color var(--bg-5)\n  .well .table-bordered\n    sharad()\n    border 5px solid var(--bg-4)\n    border-collapse separate\n  .well .table-bordered thead\n    background-color var(--bg-1)\n  .well .table-striped > tbody > tr:nth-of-type(2n+1)\n    background-color var(--bg-4)\n  .well .table\n    margin-bottom 20px\n  .well img\n    rad()\n    box-shadow none\n  // input\n  #description.form-control\n    background-color var(--bg-3)\n    border 1px solid var(--bg-3)\n    border-radius 0px prad prad prad\n  .nav-tabs\n    border-bottom 0\n  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus\n    shad()\n    color var(--txt)\n    background-color var(--bg-3)\n    border-bottom-color var(--bg-3)\n    border 1px solid var(--bg-3)\n    z-index -1\n  .nav-tabs > li > a\n    border-radius prad prad 0 0\n  .nav-tabs > li > a:hover\n    border-color var(--bg-3)\n  .nav > li > a:hover, .nav > li > a:focus\n    background-color var(--bg-2)\n  // buttons\n  .btn-danger\n    color var(--txt)\n    background-color var(--bg-dang)\n    border-color var(--bg-dang)\n  .btn-warning\n    color var(--txt)\n    background-color var(--bg-warn)\n    border-color var(--bg-warn)\n  .btn-grey\n    color var(--txt)\n    background-color var(--bg-4)\n    border-color var(--bg-4)\n  \n  // images\n  // torrent description\n  #torrent-description img\n    rad()\n    box-shadow none\n  // user avatars\n  .avatar\n    rad()\n    box-shadow none\n  .comment-content img\n    rad()\n    box-shadow none\n  // round avatars\n  if avarnd\n    .avatar\n      border-radius 100%\n  // adjust image saturation\n  #torrent-description img, .comment-content img, .well img\n    filter saturate(imgsat)\n  .avatar\n    filter saturate(avasat)\n  // img box shadows\n  if imgshad\n    #torrent-description img, .comment-content img, .well img\n      shad()\n  if avashad\n    .avatar\n      shad()\n    \n  // dark mode toggle visibility\n  if xdarkbtn\n    footer p\n      visibility hidden\n\n  // rotating color animation\n  @keyframes rainbow\n    0%\n      color hsl(335, 45%, 60%)\n      text-shadow 0 0 10px hsl(335, 45%, 60%)\n    10%\n      color hsl(225, 100%, 70%)\n      text-shadow 0 0 10px hsl(225, 100%, 70%)\n    20%\n      color hsl(190, 45%, 60%)\n      text-shadow 0 0 10px hsl(190, 45%, 60%)\n    30%\n      color hsl(50, 45%, 60%)\n      text-shadow 0 0 10px hsl(50, 45%, 60%)\n    40%\n      color hsl(0, 45%, 60%)\n      text-shadow 0 0 10px hsl(0, 45%, 60%)\n    50%\n      color hsl(140, 45%, 60%)\n      text-shadow 0 0 10px hsl(140, 45%, 60%)\n    60%\n      color hsl(200, 45%, 60%)\n      text-shadow 0 0 10px hsl(200, 45%, 60%)\n    70%\n      color hsl(35, 60%, 40%)\n      text-shadow 0 0 10px hsl(35, 60%, 40%)\n    80%\n      color hsl(10, 70%, 70%)\n      text-shadow 0 0 10px hsl(10, 70%, 70%)\n    90%\n      color hsl(50, 100%, 50%)\n      text-shadow 0 0 10px hsl(50, 100%, 50%)\n    100%\n      color hsl(335, 45%, 60%)\n      text-shadow 0 0 10px hsl(335, 45%, 60%)\n\n  // show userstyle attribution\n  if xus\n    footer::before\n      content us\n      font-weight bold\n      animation rainbow 5s infinite\n",
+    "usercssData": {
+      "name": "nyaa.si - Lunar Duck",
+      "namespace": "sabakuran",
+      "description": "DDG inspired theme for nyaa.si",
+      "author": "sabakuran (https://github.com/sabakuran)",
+      "homepageURL": "https://github.com/sabakuran/personal-stylesheets",
+      "supportURL": "https://github.com/sabakuran/personal-stylesheets/issues",
+      "updateURL": "https://userstyles.world/api/style/1397.user.css",
+      "preprocessor": "stylus",
+      "version": "2.2.1",
+      "license": "WTFPL",
+      "vars": {
+        "cs": {
+          "type": "select",
+          "label": "Color scheme",
+          "name": "cs",
+          "value": null,
+          "default": "Default",
+          "options": [
+            {
+              "name": "Default",
+              "label": "Default",
+              "value": "cs-dark"
+            },
+            {
+              "name": "Miku",
+              "label": "Miku",
+              "value": "cs-cyan"
+            },
+            {
+              "name": "Luka",
+              "label": "Luka",
+              "value": "cs-pink"
+            },
+            {
+              "name": "Rin",
+              "label": "Rin",
+              "value": "cs-yellow"
+            },
+            {
+              "name": "Teto",
+              "label": "Teto",
+              "value": "cs-red"
+            },
+            {
+              "name": "Gumi",
+              "label": "Gumi",
+              "value": "cs-green"
+            },
+            {
+              "name": "Kaito",
+              "label": "Kaito",
+              "value": "cs-blue"
+            }
+          ]
+        },
+        "xdarkbtn": {
+          "type": "checkbox",
+          "label": "Hide dark mode toggle",
+          "name": "xdarkbtn",
+          "value": null,
+          "default": "1",
+          "options": null
+        },
+        "navstick": {
+          "type": "checkbox",
+          "label": "Enable sticky navbar",
+          "name": "navstick",
+          "value": null,
+          "default": "1",
+          "options": null
+        },
+        "avarnd": {
+          "type": "checkbox",
+          "label": "Enable rounded avatars",
+          "name": "avarnd",
+          "value": null,
+          "default": "1",
+          "options": null
+        },
+        "imgshad": {
+          "type": "checkbox",
+          "label": "Enable image shadows",
+          "name": "imgshad",
+          "value": null,
+          "default": "1",
+          "options": null
+        },
+        "avashad": {
+          "type": "checkbox",
+          "label": "Enable avatar shadows",
+          "name": "avashad",
+          "value": null,
+          "default": "1",
+          "options": null
+        },
+        "imgsat": {
+          "type": "select",
+          "label": "Image saturation",
+          "name": "imgsat",
+          "value": null,
+          "default": "Default",
+          "options": [
+            {
+              "name": "Greyscale",
+              "label": "Greyscale",
+              "value": "0%"
+            },
+            {
+              "name": "10%",
+              "label": "10%",
+              "value": "10%"
+            },
+            {
+              "name": "20%",
+              "label": "20%",
+              "value": "20%"
+            },
+            {
+              "name": "30%",
+              "label": "30%",
+              "value": "30%"
+            },
+            {
+              "name": "40%",
+              "label": "40%",
+              "value": "40%"
+            },
+            {
+              "name": "Half",
+              "label": "Half",
+              "value": "50%"
+            },
+            {
+              "name": "60%",
+              "label": "60%",
+              "value": "60%"
+            },
+            {
+              "name": "70%",
+              "label": "70%",
+              "value": "70%"
+            },
+            {
+              "name": "80%",
+              "label": "80%",
+              "value": "80%"
+            },
+            {
+              "name": "90%",
+              "label": "90%",
+              "value": "90%"
+            },
+            {
+              "name": "Default",
+              "label": "Default",
+              "value": "100%"
+            }
+          ]
+        },
+        "avasat": {
+          "type": "select",
+          "label": "Avatar saturation",
+          "name": "avasat",
+          "value": null,
+          "default": "Default",
+          "options": [
+            {
+              "name": "Greyscale",
+              "label": "Greyscale",
+              "value": "0%"
+            },
+            {
+              "name": "10%",
+              "label": "10%",
+              "value": "10%"
+            },
+            {
+              "name": "20%",
+              "label": "20%",
+              "value": "20%"
+            },
+            {
+              "name": "30%",
+              "label": "30%",
+              "value": "30%"
+            },
+            {
+              "name": "40%",
+              "label": "40%",
+              "value": "40%"
+            },
+            {
+              "name": "Half",
+              "label": "Half",
+              "value": "50%"
+            },
+            {
+              "name": "60%",
+              "label": "60%",
+              "value": "60%"
+            },
+            {
+              "name": "70%",
+              "label": "70%",
+              "value": "70%"
+            },
+            {
+              "name": "80%",
+              "label": "80%",
+              "value": "80%"
+            },
+            {
+              "name": "90%",
+              "label": "90%",
+              "value": "90%"
+            },
+            {
+              "name": "Default",
+              "label": "Default",
+              "value": "100%"
+            }
+          ]
+        },
+        "density": {
+          "type": "select",
+          "label": "Table density",
+          "name": "density",
+          "value": null,
+          "default": "Default",
+          "options": [
+            {
+              "name": "Default",
+              "label": "Default",
+              "value": "none"
+            },
+            {
+              "name": "Comfortable",
+              "label": "Comfortable",
+              "value": "10px"
+            },
+            {
+              "name": "Compact",
+              "label": "Compact",
+              "value": "dens-compact"
+            }
+          ]
+        },
+        "prad": {
+          "type": "select",
+          "label": "Rounded corners",
+          "name": "prad",
+          "value": null,
+          "default": "Default",
+          "options": [
+            {
+              "name": "None",
+              "label": "None",
+              "value": "0"
+            },
+            {
+              "name": "Default",
+              "label": "Default",
+              "value": "4px"
+            },
+            {
+              "name": "8px",
+              "label": "8px",
+              "value": "8px"
+            },
+            {
+              "name": "12px",
+              "label": "12px",
+              "value": "12px"
+            }
+          ]
+        },
+        "xcw": {
+          "type": "checkbox",
+          "label": "Adjust container width",
+          "name": "xcw",
+          "value": null,
+          "default": "0",
+          "options": null
+        },
+        "cw": {
+          "type": "range",
+          "label": "Container width",
+          "name": "cw",
+          "value": null,
+          "default": 1400,
+          "options": null,
+          "min": 1150,
+          "max": 1900,
+          "step": 10,
+          "units": "px"
+        },
+        "xus": {
+          "type": "checkbox",
+          "label": "Show userstyle attribution",
+          "name": "xus",
+          "value": null,
+          "default": "1",
+          "options": null
+        }
+      }
+    },
+    "author": "sabakuran (https://github.com/sabakuran)",
+    "description": "DDG inspired theme for nyaa.si",
+    "name": "nyaa.si - Lunar Duck",
+    "originalDigest": "4535bd63eced091af7cb506aec71f053ccd03a0d",
+    "_id": "b5e17c66-0eb8-46fc-b093-0ff18b2cf80c",
+    "_rev": 1660158491135,
+    "installationUrl": "https://userstyles.world/style/1397",
+    "id": 3,
+    "updateDate": 1660158491102
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/4522.user.css",
+    "url": "https://userstyles.world/style/4522",
+    "installDate": 1660829115105,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         SensCritique Dark v2\n@version      20220505.19.30\n@namespace    userstyles.world/user/alxmtr\n@description  Nouvelle version du thème \"SensCritique - Thème Sombre\".\nCertains éléments du site peuvent encore se retrouver non modifiés.\n\nN'hésitez pas à me contacter sur mon profil SensCritique en cas de besoin : https://www.senscritique.com/zhyar\n\n@author       alxmtr\n@license      CC-BY-SA-4.0\n==/UserStyle== */\n@-moz-document domain(\"www.senscritique.com\"){:root{--dark:#18191c;--dark-gray:#202225;--green:#0CDC73}body,html{background-color:var(--dark)}svg[fill=\"#00FF53\"],path[fill=\"#00FF53\"]{fill:var(--green)}svg[stroke=\"#00FF53\"],path[stroke=\"#00FF53\"]{stroke:var(--green)}[class=\"ArrowRound__Container-sc-11mj019-0 hHOuoX\"] path,[class=\"ArrowRound__Container-sc-11mj019-0 jzucEf\"] path{stroke:darkgray}[class=\"Notification__Wrapper-sc-vs77w8-0 dGGREp\"] path{stroke:white}[class=\"HeaderDesktop__Container-sc-cs8fis-0 gIaSCQ\"]{background-color:var(--dark)}[class=\"Text__SCTitle-sc-14ie3lm-1 NavigationItem__Primary-sc-626pfb-4 ebkcFC gfPiuf\"]{color:white}[class=\"Avatar__Wrapper-sc-1b3wxzs-0 fdfOzr\"]{border-color:var(--green)}[class=\"SearchBar__InputStyle-sc-fne7xz-2 bTXIFZ\"],[class=\"SearchBar__Form-sc-fne7xz-1 dxDrty\"]{background-color:var(--dark)}[class=\"SearchBar__Form-sc-fne7xz-1 dxDrty\"]{border-color:rgba(255,255,255,.2)}input#search,input#search::placeholder{color:white}[class=\"AutocompleteCard__TitleContainer-sc-mb1ddq-1 kYRCbX\"] [class=\"Text__SCText-sc-14ie3lm-0 fzhdFi\"]{color:var(--dark) !important}[class=\"Text__SCText-sc-14ie3lm-0 gfCOXA\"]{color:white}[class=\"Button__SeeMoreButton-sc-1yjbur1-10 jfmGwe\"]{border-color:rgba(255,255,255,.3)}[class=\"Button__SecondaryButton-sc-1yjbur1-1 eMZOwV\"] [class=\"Text__SCText-sc-14ie3lm-0 dsSNGr\"]{color:var(--dark) !important}[class=\"leaf__Text-sc-88hwk-0 hhflQU\"],[class=\"EditReview__RatingTitle-sc-v2iafj-7 huGqjd\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 dGWsbO jLGgsY\"],[class=\"Text__SCTitle-sc-14ie3lm-1 ReactionPopIn__SCTitleStyle-sc-19947al-2 ebkcFF gbbqNy\"],[class=\"Text__SCUserText-sc-14ie3lm-2 ReviewTitle__SCTitleStyle-sc-1ehd9e5-0 kQEuxf dCQwes Review__StyledReviewTitle-sc-1k0n64z-7 hvFOwA\"],[class=\"Content__Container-sc-1a6ct0l-0 bbijov\"],[class=\"Text__SCText-sc-14ie3lm-0 Review__ProductTitle-sc-1k0n64z-8 ldwQlf fuinfm\"],[class=\"Text__SCText-sc-14ie3lm-0 ReadsNumber__Text-sc-1mwwy04-0 fzhdFi mhjdv\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 HeaderDesktop__TextStyled-sc-cs8fis-8 ehXMwR tCiyu\"]{color:white}[class=\"HeaderDesktop__Separator-sc-cs8fis-6 hprnwh\"]{border-color:white}[class=\"Wrapper__Container-sc-l0h0lw-0 dRsWUN\"]{background-color:var(--dark)}[class=\"Main__WrapperMain-sc-xzf2df-0 jEdloY\"],[class=\"Footer__MainContainer-sc-13ewzmz-10 bKKDjt\"]{background-color:var(--dark-gray)}[class=\"HomeCarousel__ItemWrapper-sc-128a4bw-2 gxWXLs\"]{filter: none}[class=\"HomeCarouselItem__Container-sc-19ljial-0 dDlZnh\"]{background-color:var(--dark-gray)}[class=\"Text__SCTitle-sc-14ie3lm-1 HomeCarouselItem__Title-sc-19ljial-2 ebkcFE fFMLRr\"],[class=\"Text__SCTitle-sc-14ie3lm-1 HomeCarouselItem__Title-sc-19ljial-2 ebkcFC fFMLRr\"]{color:white}[class=\"ModalCentered__Wrapper-sc-8vxfze-1 ePzEIK\"]{background-color:var(--dark)}[class=\"Input-sc-woq0gt-0 ilaNUL\"]{color:white}[class=\"NavigationTab__Text-sc-m48tl5-4 bOZmMF\"]{color:white}[class=\"InputLabel__Text-sc-1lncbb7-1 jOHiTc\"]{color:white}[class=\"Button__SecondaryButton-sc-1yjbur1-1 cNCiYh\"] [class=\"Text__SCText-sc-14ie3lm-0 dsSNGr\"]{color:var(--dark)}[class=\"Item__Wrapper-sc-my3b8y-2 dhanPx\"]{border-color:rgba(255,255,255,.1)}[class=\"Text__SCText-sc-14ie3lm-0 Username__WrapperUsername-sc-19yskas-1 ehXMwO\"],a.feed__user{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Item__Content-sc-my3b8y-3 ehXMwR bgpsWq\"]{color:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 LikesNumber__Label-sc-1yy33g0-1 dsSNGq jVuinx\"],[class=\"Text__SCText-sc-14ie3lm-0 CommentsNumber__Label-sc-1p3a6i9-1 dsSNGq hTYxFN\"],[class=\"Text__SCText-sc-14ie3lm-0 LikesNumber__Label-sc-1yy33g0-1 dsSNGt jVuinx\"]{color:white}[class=\"LikesNumber__WrapperIcon-sc-1yy33g0-2 gdBFeO\"] .Heart__Svg-sc-10d1rz1-0 path,[class=\"CommentsNumber__Container-sc-1p3a6i9-0 jGmVaA\"]{stroke:white}[class=\"CommentsModal__Wrapper-sc-175v359-2 gafwGT\"],[class=\"CommentsModal__Header-sc-175v359-3 fNyWjm\"],[class=\"CommentForm__Container-sc-nq5p7u-0 gtWwCN\"]{background-color:var(--dark)}[class=\"Text__SCTitle-sc-14ie3lm-1 Title__WrapperTitle-sc-1rjf39o-0 cNQBSk iNnFuM\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 ContentPreview__Content-sc-1f3hqfz-0 fzhdFi hWCihh\"]{color:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 Timestamp__Container-sc-1xy1xox-0 dsSNGq hxKMIq\"],[class=\"Text__SCText-sc-14ie3lm-0 fzhdFi\"]{color:white}[class=\"CommentsModal__WrapperIcon-sc-175v359-7 fPhoAR\"] path{stroke:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"]{color:var(--dark) !important}[class=\"NotificationsModal__Wrapper-sc-1m6po0g-4 haqEGv\"]{background-color:var(--dark)}[class=\"Text__SCText-sc-14ie3lm-0 DateText__Text-sc-av4a2t-0 fzhdFl XmJzR\"]{color:white}[class=\"Text__SCTitle-sc-14ie3lm-1 Pagination__Item-sc-u5kybx-1 Pagination__PaginationItem-sc-u5kybx-2 iTTrjO jTRycw cLqjhv\"]{background-color:var(--dark-gray)}[class=\"Text__SCTitle-sc-14ie3lm-1 Pagination__Item-sc-u5kybx-1 iTTrjO jTRycw\"]{color:darkgray}[class=\"Row__Container-sc-z5g0f4-0 ceKqRj Review__RowStyled-sc-1k0n64z-0 fetBfZ\"]{border-color:rgba(255,255,255,.2)}[class=\"Rating__UserRating-sc-1rkvzid-2 fylBAF\"],[class=\"CTARound__Container-sc-bo5rwg-0 hvmJai\"]{background-color:var(--dark-gray)}}@-moz-document url(\"https://www.senscritique.com/live\"), url(\"https://www.senscritique.com/\"){[class=\"Text__SCTitle-sc-14ie3lm-1 Feed__Title-sc-4u3c2u-0 eqJcm dILvzr\"],[class=\"Text__SCTitle-sc-14ie3lm-1 HomeDisconnected__Title-sc-vvy6jb-7 ddJnQx btQluQ\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ehXMwQ jLGgsY\"]{color:white}}@-moz-document url-prefix(\"https://www.senscritique.com/film/\"), url-prefix(\"https://www.senscritique.com/serie/\"), url-prefix(\"https://www.senscritique.com/album/\"), url-prefix(\"https://www.senscritique.com/livre/\"), url-prefix(\"https://www.senscritique.com/bd/\"), url-prefix(\"https://www.senscritique.com/jeuvideo/\"), url-prefix(\"https://www.senscritique.com/morceau/\"), url-prefix(\"https://www.senscritique.com/contact/\"){[class=\"Wrapper__Container-sc-l0h0lw-0 dRsWUN\"],[class=\"Main__WrapperMain-sc-xzf2df-0 jQRpEI\"],[class=\"ProductActions__Container-sc-xa9lr6-0 gTNmFf\"]{background-color:var(--dark)}[class=\"Text__SCText-sc-14ie3lm-0 ProductActions__RatingTitle-sc-xa9lr6-2 ehXMwO gNrrPr\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 ActionButton__Label-sc-10se4vs-0 ehXMwR ecPEuD\"]{color:white}[class=\"ActionButton__Container-sc-10se4vs-1 hecrA\"]:hover{background-color:var(--dark-gray)}[class=\"NavigationTab__WrapperText-sc-m48tl5-6 NavigationTab__WrapperTextStyled-sc-m48tl5-7 dilmcu jPVkCU\"] a,[class=\"Text__SCTitle-sc-14ie3lm-1 gKIpem\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 ProductActions__Text-sc-xa9lr6-9 ehXMwR gMmWuv\"] a,[class=\"Text__SCText-sc-14ie3lm-0 ProductActions__Text-sc-xa9lr6-9 ehXMwR gMmWuv\"] span,[class=\"Text__SCText-sc-14ie3lm-0 ProductActions__Text-sc-xa9lr6-9 ehXMwR gMmWuv\"] p{color:var(--dark) !important}[class=\"Text__SCText-sc-14ie3lm-0 Creators__Text-sc-1t34n5u-0 fzhdFi hqDnDC\"],[class=\"Book__Bold-sc-jsugl6-3 dRzrNl\"],[class=\"Profession__Bold-sc-j5v6tp-0 cLlURL\"],[class=\"Movie__Bold-sc-1ilnh4x-3 WEHQb\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductReviews__Filter-sc-o6s7d-1 dsSNGq erhCf\"],[class=\"ComicBook__Bold-sc-g6tgef-3 kOTEpW\"],[class=\"Info__Bold-sc-mab4tu-0 fXMBej\"],[class=\"Game__Bold-sc-90jafw-3 oQyIA\"],[class=\"Text__SCText-sc-14ie3lm-0 PollCard__Label-sc-k3tz5w-4 fzhdFi jitcqI\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwR\"],[class=\"TvShow__Bold-sc-2bcynb-3 hQtNGi\"],[class=\"Text__SCText-sc-14ie3lm-0 EpisodeCard__Text-sc-141vfet-3 fzhdFi lmyzcP\"],[class=\"Text__SCText-sc-14ie3lm-0 ProviderSVOD__Title-sc-po98fn-2 dsSNGq fTubCC\"],[class=\"Text__SCText-sc-14ie3lm-0 ProviderTV__Schedule-sc-1oqx3en-2 dsSNGq\"],[class=\"Text__SCText-sc-14ie3lm-0 SeasonFilter__SeasonTitle-sc-n44mkx-2 ehXMwR iJhZHP\"],[class=\"Text__SCText-sc-14ie3lm-0 Desktop__Decription-sc-s9bsq4-4 fzhdFi bPglaY\"],[class=\"Text__SCText-sc-14ie3lm-0 EpisodeDetailsModal__Text-sc-o9679l-7 ehXMwR klAKVd\"]{color:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 ProductSynopsis__Text-sc-v8f9yy-0 fzhdFi gfzOao\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"],[class=\"Book__SimpleWrapper-sc-jsugl6-5 fUPjVP\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ehXMwQ jLGgsY\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductReviews__Filter-sc-o6s7d-1 dsSNGt erhCf\"],[class=\"Text__SCText-sc-14ie3lm-0 ReviewTypeContent__Text-sc-1vm0u6p-2 dsSNGr dYnOwM\"],[class=\"Info__SimpleWrapper-sc-mab4tu-2 ehvTNZ\"],[class=\"Text__SCTitle-sc-14ie3lm-1 johCSx\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Providers__Title-sc-1jkz7gq-1 ebkcFD AOCUS\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Providers__Title-sc-1jkz7gq-1 Providers__TVTitle-sc-1jkz7gq-2 ebkcFD AOCUS hMdKEL\"],[class=\"Text__SCText-sc-14ie3lm-0 ProviderTV__Date-sc-1oqx3en-3 dsSNGt bGtebv\"],[class=\"Text__SCTitle-sc-14ie3lm-1 ProductSeasons__Filter-sc-1ip05wb-3 cNQBSk gmFnEX\"],[class=\"Text__SCText-sc-14ie3lm-0 SeasonFilter__SeasonTitle-sc-n44mkx-2 ehXMwO iJhZHP\"],[class=\"Text__SCText-sc-14ie3lm-0 Desktop__StyledText-sc-s9bsq4-7 ehXMwO lmtGEc\"],[class=\"Text__SCTitle-sc-14ie3lm-1 cNQBSi\"],[class=\"Text__SCTitle-sc-14ie3lm-1 cNQBSk\"],[class=\"TvShow__Ellipsis-sc-2bcynb-4 kEpJYj\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFj jLGgsY\"],[class=\"Text__SCText-sc-14ie3lm-0 TracklistPreview__Text-sc-r2sv66-2 fzhdFi lagAf\"],[class=\"Text__SCTitle-sc-14ie3lm-1 ProductScoutActionsModal__Title-sc-226sd4-1 JxTpf fCKyMl\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Link__PrimaryLink-sc-1vfcbn2-0 fzhdFi dPapvk\"],[class=\"Text__SCText-sc-14ie3lm-0 ListOverview__Label-sc-10et7ih-4 ehXMwQ lbEczU\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"],[class=\"Text__SCTitle-sc-14ie3lm-1 PollCard__Rank-sc-k3tz5w-3 cNQBSk fjbOaV\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY ProductCard__TitleLink-sc-9gv0co-0 cwAQwQ\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Link__PrimaryLink-sc-1vfcbn2-0 ehXMwR lgkSEF ProductLineView__Container-sc-19wnouq-0 TBfKG\"]{background-color:var(--dark-gray)}[class=\"Text__SCTitle-sc-14ie3lm-1 SeasonsListPopin__Title-sc-zswr8b-4 cjkoeE fgEffV\"],[class=\"Text__SCText-sc-14ie3lm-0 EpisodeDetailsModal__NormalText-sc-o9679l-1 ehXMwO epARIc\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 EpisodeDetailsModal__Italic-sc-o9679l-0 ehXMwR imFrzl\"]{color:darkgray}[class=\"Select__SelectStyle-sc-1fnupax-2 giNWZN\"]{color:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 dsSNGr\"]{color:white}[class=\"Button__PrimaryButton-sc-1yjbur1-0 iiTQop\"]{border-color:rgba(255,255,255,.3)}[class=\"Row__Container-sc-z5g0f4-0 ceKqRj Report__StyledRow-sc-5jh4mk-0 hjMQAU\"]{border-color:rgba(255,255,255,.2)}[class=\"ActionStat__Container-sc-1qqq7gc-0 ifMqHe\"] path{fill:white}}@-moz-document url(\"https://www.senscritique.com/messagerie\"){[class=\"Wrapper__Container-sc-l0h0lw-0 dRsWUN\"],[class=\"Content__Container-sc-2n22yf-0 jbXPef Messaging__StyledContent-sc-1elknrv-10 ZueGU\"]{background-color:var(--dark)}[class=\"Content__Container-sc-2n22yf-0 jbXPef Messaging__StyledContent-sc-1elknrv-10 kqHYAN\"]{background-color:var(--dark-gray)}[class=\"Messaging__MessagesWrapper-sc-1elknrv-2 eHTBkB\"]{background:none}[class=\"Text__SCText-sc-14ie3lm-0 Messages__Usernames-sc-sh3fs7-12 ehXMwO ceAcSq\"],[class=\"InputWrapper__Wrapper-sc-tt3jrn-0 fnhFzO InputMessage__StyledInput-sc-h5qn4d-1 LiqEo\"] textarea{color:white}[class=\"Messages__Top-sc-sh3fs7-2 tFNRZ\"]{border-color:rgba(255,255,255,.2)}}@-moz-document url-prefix(\"https://www.senscritique.com/films\"), url-prefix(\"https://www.senscritique.com/musique\"), url-prefix(\"https://www.senscritique.com/top/\"), url-prefix(\"https://www.senscritique.com/everymovie/\"), url-prefix(\"https://www.senscritique.com/series\"), url-prefix(\"https://www.senscritique.com/jeuxvideo\"), url-prefix(\"https://www.senscritique.com/livres\"), url-prefix(\"https://www.senscritique.com/bd\"){[class=\"Text__SCTitle-sc-14ie3lm-1 ddJnQx\"]{color:white}[class=\"ReviewOverview__ContentContainer-sc-8zdxl2-4 eAgxHD\"] [class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"],[class=\"Text__SCText-sc-14ie3lm-0 ListOverview__Label-sc-10et7ih-4 ehXMwQ lbEczU\"],[class=\"Text__SCText-sc-14ie3lm-0 ListOverview__Description-sc-10et7ih-6 fzhdFi cygkVu\"],[class=\"Text__SCTitle-sc-14ie3lm-1 ddJnQx\"],[class=\"Text__SCText-sc-14ie3lm-0 ListDescription__Description-sc-5zdh9z-1 fzhdFi jpcyzi\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Polls__SCTitleStyled-sc-y3u0sq-0 eqJco iyCjhb\"],[class=\"Text__SCText-sc-14ie3lm-0 NavigationPeriod__Label-sc-1aanw14-5 ldwQlg bfCKeo\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY ProductCard__LinkStyled-sc-9gv0co-3 cswOiZ\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Polls__Description-sc-y3u0sq-1 fzhdFi haxSUH\"],[class=\"Text__SCText-sc-14ie3lm-0 Creators__Text-sc-1t34n5u-0 fzhdFi hqDnDC ReviewsSpotlight__CreatorsStyle-sc-4a8f6o-4 nOuUN\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductListItem__Synopsis-sc-ico7lo-9 fzhdFi jAbMyZ\"],[class=\"Text__SCText-sc-14ie3lm-0 dsSNGq\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductListItem__PollText-sc-ico7lo-11 dsSNGq ezNoIA\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductListItem__PollText-sc-ico7lo-11 dsSNGq ezNoIA\"] a,[class=\"Text__SCText-sc-14ie3lm-0 fzhdFl\"]{color:darkgray}[class=\"NavigationTab__WrapperText-sc-m48tl5-6 NavigationTab__WrapperTextStyled-sc-m48tl5-7 dilmcu jPVkCU\"] a,[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY ProductCard__TitleLink-sc-9gv0co-0 cwAQwQ\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ehXMwQ jLGgsY\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ldwQlf jLGgsY\"]{color:white !important}[class=\"Section__Container-sc-1equfs8-0 jLWfMk ReviewsSpotlight__Wrapper-sc-4a8f6o-1 lcxPhB\"]{border-color:rgba(255,255,255,.2)}}@-moz-document url-prefix(\"https://www.senscritique.com/\"){[class=\"ListItemEdit__Container-sc-kx8e3v-0 gBkTtJ\"],[class=\"SidebarUser__Container-sc-1td5kmi-0 lfKleJ\"]{background-color:var(--dark)}[class=\"ListSearchItem__Container-sc-1dxly52-0 fyzwbC\"],[class=\"PopinListItem__Container-sc-a3xwlk-0 fYTHjP\"]{background-color:var(--dark-gray)}[class=\"Text__SCTitle-sc-14ie3lm-1 ListsProfil__TitleSidebar-sc-1skwhv6-4 cNQBSk cltvhh\"],[class=\"Text__SCText-sc-14ie3lm-0 ListsProfil__Text-sc-1skwhv6-15 iByMfm cynLAS\"],[class=\"Text__SCTitle-sc-14ie3lm-1 ListsProfil__Title-sc-1skwhv6-1 cjkoeE gnpzxx\"],[class=\"Text__SCText-sc-14ie3lm-0 ListOverview__Description-sc-10et7ih-6 fzhdFi cygkVu\"],[class=\"Text__SCText-sc-14ie3lm-0 iByMfm\"],[class=\"Text__SCUserText-sc-14ie3lm-2 ListEdit__SCUserTextStyled-sc-vli4i9-10 iRvnJY bGTGyi\"],[class=\"SearchBar__InputStyle-sc-fne7xz-2 bTXIFZ\"]::placeholder,[class=\"Text__SCTitle-sc-14ie3lm-1 CTARound__Label-sc-bo5rwg-1 iFsJAt jJQVXW\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductTitle__PositionWrapper-sc-1o1h2uf-0 dGWsbQ euvRAa\"],[class=\"Input__Textarea-sc-woq0gt-1 fBiSbL\"],[class=\"Text__SCUserText-sc-14ie3lm-2 clXIBB\"],[class=\"Text__SCText-sc-14ie3lm-0 fzhdFl\"],[class=\"Text__SCTitle-sc-14ie3lm-1 cjkoeE\"],[class=\"InputWrapper__Wrapper-sc-tt3jrn-0 fnhFzO ListEdit__StyledInput-sc-vli4i9-6 edVRMg\"] textarea,[class=\"Text__SCUserText-sc-14ie3lm-2 List__SCUserTextStyled-sc-9y50tm-8 iRvnJY bLVgrs\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 ListsProfil__Text-sc-1skwhv6-15 iByMfp cynLAS\"],[class=\"Text__SCText-sc-14ie3lm-0 iByMfp\"],[class=\"Input__Textarea-sc-woq0gt-1 fNjyKU\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductListItem__Synopsis-sc-ico7lo-9 fzhdFi jAbMyZ\"],[class=\"Text__SCText-sc-14ie3lm-0 Creators__Text-sc-1t34n5u-0 fzhdFi hqDnDC\"]{color:darkgray}[class=\"NavigationTab__WrapperText-sc-m48tl5-6 NavigationTab__WrapperTextStyled-sc-m48tl5-7 dilmcu jPVkCU\"] a:hover,[class=\"Text__SCTitle-sc-14ie3lm-1 SectionTitle__Title-sc-10p9jws-0 cNQBSk eHphHO\"] a,[class=\"Text__SCText-sc-14ie3lm-0 ListOverview__Label-sc-10et7ih-4 ehXMwQ lbEczU\"]{color:white}[class=\"CTARound__Container-sc-bo5rwg-0 hvmJai\"] path,[class=\"ListItemEdit__CrossWrapper-sc-kx8e3v-1 ppTSh\"] path{stroke:white !important}.CTARoundList__Container-sc-1n6s126-0.dokXRm > div:nth-child(2) path{fill:white}[class=\"Button__QuaternaryButton-sc-1yjbur1-3 kPNMXs\"],[class=\"Toaster__Container-sc-tdkf0g-1 gUfjjS\"]{background-color:var(--dark-gray)}[class=\"Text__SCTitle-sc-14ie3lm-1 ListParameterPopin__SCTitleStyled-sc-kv2mtp-1 cNQBSk yaueY\"]{color:white}}@-moz-document url-prefix(\"https://www.senscritique.com/\"){[class=\"Tooltip__Wrapper-sc-z02mh4-1 cSvodo\"],[class=\"Tooltip__WrapperTooltip-sc-z02mh4-2 VtGuX\"]::before{background-color:var(--dark-gray)}[class=\"Tooltip__Wrapper-sc-z02mh4-1 cSvodo\"]{box-shadow:none}[class=\"ProgressionCircle__ProgressionWrapper-sc-1h4qmvp-1 jpzKnA\"] circle[stroke=\"#1A1A1A\"]{stroke:var(--green)}[class=\"BarChartVertical__Wrapper-sc-1erflre-1 jBTWYY\"] div[color=\"#1A1A1A\"]{background-color:var(--green)}[class=\"Text__SCText-sc-14ie3lm-0 dsSNGt\"],[class=\"Text__SCText-sc-14ie3lm-0 BarChartVertical__Label-sc-1erflre-3 dsSNGq jINXdW\"],[class=\"Text__SCText-sc-14ie3lm-0 dsSNGq\"]{color:white}[class=\"Text__SCTitle-sc-14ie3lm-1 cjkoeC\"],[class=\"Text__SCText-sc-14ie3lm-0 Profil__Description-sc-b2n2sg-1 fzhdFi eGyCBU\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwO\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Top10Card__Title-sc-i80ayg-1 ebkcFF dRhQye\"],[class=\"Text__SCTitle-sc-14ie3lm-1 CollectionProfil__Title-sc-1cafzlj-2 kNJrFP cDKuTj\"],[class=\"Text__SCTitle-sc-14ie3lm-1 CollectionProfil__TitleSidebar-sc-1cafzlj-4 cNQBSk zitAO\"],[class=\"Text__SCText-sc-14ie3lm-0 CollectionProfil__Text-sc-1cafzlj-13 ehXMwO dIeeVv\"],[class=\"Text__SCText-sc-14ie3lm-0 ProductListItem__AuthorInfo-sc-ico7lo-7 dsSNGq imHvnG\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Diary__FilterTitle-sc-12idzw0-4 cNQBSi leuLUN\"],[class=\"Text__SCTitle-sc-14ie3lm-1 kNJrFP\"],[class=\"Text__SCText-sc-14ie3lm-0 Diary__Filter-sc-12idzw0-6 ehXMwO cjppjP\"],[class=\"SearchBar__InputStyle-sc-fne7xz-2 bTXIFZ\"],[class=\"Text__SCTitle-sc-14ie3lm-1 cNQBSk\"],[class=\"Text__SCText-sc-14ie3lm-0 UserContacts__Filter-sc-1t8sac4-3 ehXMwO SzHko\"],[class=\"Select__SelectStyle-sc-1fnupax-2 gxdEGy\"],[class=\"Text__SCTitle-sc-14ie3lm-1 Activity__Title-sc-1pace02-0 eqJcm eSJgBm\"],[class=\"Text__SCText-sc-14ie3lm-0 Username__WrapperUsername-sc-19yskas-1 jtPPUF\"],[class=\"Text__SCTitle-sc-14ie3lm-1 cNQBSi\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Top10Card__WrapperProduct-sc-i80ayg-3 fzhdFi fLKUDp\"],[class=\"Text__SCText-sc-14ie3lm-0 CollectionProfil__Text-sc-1cafzlj-13 ehXMwR dIeeVv\"],[class=\"Text__SCText-sc-14ie3lm-0 Creators__Text-sc-1t34n5u-0 dsSNGq hqDnDC ProductListItem__StyledCreators-sc-ico7lo-6 cMTDEQ\"],[class=\"Text__SCText-sc-14ie3lm-0 Diary__Filter-sc-12idzw0-6 ehXMwR cjppjP\"],[class=\"Text__SCText-sc-14ie3lm-0 UserScout__LastSessionText-sc-1l8x296-3 dsSNGq dHCxFo\"],[class=\"Text__SCText-sc-14ie3lm-0 UserContacts__Filter-sc-1t8sac4-3 ehXMwR SzHko\"],[class=\"Text__SCText-sc-14ie3lm-0 ehXMwR\"],[class=\"Text__SCText-sc-14ie3lm-0 UserReviews__SCTextStyled-sc-ixueo2-8 ehXMwR dqPsQL\"],[class=\"Text__SCText-sc-14ie3lm-0 ProviderVOD__Title-sc-1es8bj7-2 ehXMwO lomjHk\"],[class=\"Text__SCText-sc-14ie3lm-0 NavigationTab__Subtitle-sc-m48tl5-5 dsSNGq cKrZVK\"]{color:darkgray}[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY ProductCard__TitleLink-sc-9gv0co-0 cwAQwQ\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 dGWsbQ jLGgsY ProductListItem__StyledProductTitle-sc-ico7lo-3 ivaIVy\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ehXMwQ jLGgsY\"],[class=\"Text__SCText-sc-14ie3lm-0 Profil__SCTextStyled-sc-b2n2sg-8 Ecebd iTiICV\"]{color:white !important}[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 fzhdFi jLGgsY ProductCard__TitleLink-sc-9gv0co-0 cwAQwQ\"]{text-align:center}[class=\"Text__SCTitle-sc-14ie3lm-1 HeaderAvatar__Sublink-sc-1axwaee-1 ebkcFD hAgsEu\"]{color:gray}[class=\"Text__SCText-sc-14ie3lm-0 dsSNGr\"]{color:white}[class=\"Button__PrimaryButton-sc-1yjbur1-0 jXXiOs\"],[class=\"Button__PrimaryButton-sc-1yjbur1-0 mffoF\"]{border-color:rgba(255,255,255,.3)}[class=\"Button__SecondaryButton-sc-1yjbur1-1 hAFa-dS\"] [class=\"Text__SCText-sc-14ie3lm-0 dsSNGr\"]{color:var(--dark)}[class=\"VersusFight__Separator-sc-lenzda-5 ewNiZQ\"],[class=\"Vs__Round-sc-5u25gq-0 hzxSYR\"]{background-color:white}[class=\"Text__SCTitle-sc-14ie3lm-1 cNQBSk\"]{color:var(--dark) !important}[class=\"VersusFight__WrapperIcon-sc-lenzda-6 Cskzt\"]{border-color:var(--dark)}}@-moz-document url-prefix(\"https://www.senscritique.com/search\"){[class=\"Text__SCTitle-sc-14ie3lm-1 ExplorerFilters__TitleSidebar-sc-1jwyzew-2 cNQBSk gNdJYA\"],[class=\"Text__SCText-sc-14ie3lm-0 ExplorerFilters__SCTextStyled-sc-1jwyzew-4 ehXMwO eklANu\"],[class=\"Text__SCTitle-sc-14ie3lm-1 eqJcm\"],[class=\"Text__SCText-sc-14ie3lm-0 Link__SecondaryLink-sc-1vfcbn2-1 ldwQlf jLGgsY\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 ExplorerFilters__SCTextStyled-sc-1jwyzew-4 ehXMwR eklANu\"]{color:darkgray}}@-moz-document url-prefix(\"https://www.senscritique.com/parametres\"){[class=\"Select__SelectStyle-sc-1fnupax-2 giNWZN\"],[class=\"Text__SCText-sc-14ie3lm-0 ProfileAccount__WrapperText-sc-18a1g00-1 fzhdFi fuYnQN\"]{color:white}[class=\"Text__SCText-sc-14ie3lm-0 InputLabelDescription__LabelDescription-sc-1arz5gl-0 fzhdFi kUnOCt Radio__StyledDescription-sc-i92259-3 hVWxCj\"]{color:darkgray}}",
+    "usercssData": {
+      "name": "SensCritique Dark v2",
+      "version": "20220505.19.30",
+      "namespace": "userstyles.world/user/alxmtr",
+      "description": "Nouvelle version du thème \"SensCritique - Thème Sombre\".",
+      "author": "alxmtr",
+      "license": "CC-BY-SA-4.0"
+    },
+    "author": "alxmtr",
+    "description": "Nouvelle version du thème \"SensCritique - Thème Sombre\".",
+    "name": "SensCritique Dark v2",
+    "originalDigest": "2bbe72d9ef3dc4e74fe866f2fcefa559eac83283",
+    "_id": "4863af44-f263-4229-8603-e3c25b43cb3c",
+    "_rev": 1660829149506,
+    "installationUrl": "https://userstyles.world/style/4522",
+    "id": 9
+  }
+]
