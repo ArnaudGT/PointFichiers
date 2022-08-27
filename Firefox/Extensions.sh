@@ -1,9 +1,9 @@
 mkdir ~/PointFichiers/Firefox/Extensions
 cd ~/PointFichiers/Firefox/Extensions
 
-echo "---------------------"
-echo "// WGET Extensions //"
-echo "---------------------"
+echo "----------------"
+echo "// Extensions //"
+echo "----------------"
 
 PKGS=(
 'https://addons.mozilla.org/firefox/downloads/file/3986147/bitwarden_password_manager.xpi'
@@ -24,4 +24,9 @@ PKGS=(
 for PKG in "${PKGS[@]}"; do
     echo "Téléchargement de: ${PKG}"
     wget "$PKG"
+done
+
+for file in ~/PointFichiers/Firefox/Extensions/*.xpi
+do
+    firefox "$file"
 done
