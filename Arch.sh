@@ -39,6 +39,7 @@ PKGS=(
 'flatpak'
 'git'
 'firefox'
+'ffmpegthumbs'
 )
 
 for PKG in "${PKGS[@]}"; do
