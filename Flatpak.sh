@@ -21,5 +21,5 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "Installation de: ${PKG}"
-    flatpak instakk "$PKG" --noconfirm
+    flatpak install -y "$PKG"
 done
