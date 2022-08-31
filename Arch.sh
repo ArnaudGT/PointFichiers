@@ -37,9 +37,9 @@ PKGS=(
 'wine'
 'winetricks'
 'flatpak'
-'git'
 'firefox'
 'ffmpegthumbs'
+'ntfs-3g'
 )
 
 for PKG in "${PKGS[@]}"; do
