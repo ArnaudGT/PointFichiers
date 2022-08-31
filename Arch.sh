@@ -40,6 +40,7 @@ PKGS=(
 'firefox'
 'ffmpegthumbs'
 'ntfs-3g'
+'gwenview'
 )
 
 for PKG in "${PKGS[@]}"; do
