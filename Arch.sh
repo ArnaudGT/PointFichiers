@@ -3,6 +3,8 @@ echo "             C'est partit Frèro!             "
 echo "             -------------------             "
 echo "                                             "
 
+sudo pacman -Syu
+
 echo "----------------"
 echo "// Repo Steam //"
 echo "----------------"
@@ -11,6 +13,11 @@ echo "----------"
 echo "// Paru //"
 echo "----------"
 
+sudo pacman -S --needed base-devel
+git clone https://github.com/Morganamilo/paru.git ~/PointFichiers/Paru
+cd ~/PointFichiers/Paru
+makepkg -si
+cd
 
 echo "------------"
 echo "// Pacman //"
