@@ -1,0 +1,18 @@
+ttf-bitstream-vera
+ttf-croscore
+ttf-dejavu
+ttf-droid
+gnu-free-fonts
+ttf-ibm-plex
+ttf-liberation
+ttf-linux-libertine
+noto-fonts gsfonts
+ttf-roboto
+tex-gyre-fonts
+tex-gyre-fonts
+noto-fonts-cjk
+adobe-source-han-sans-otc-fonts
+adobe-source-han-serif-otc-fonts
+ttf-sazanami
+ttf-hanazono
+otf-ipafont
