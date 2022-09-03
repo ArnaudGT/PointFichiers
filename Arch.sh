@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "             -------------------             "
 echo "             C'est partit Frèro!             "
 echo "             -------------------             "
@@ -17,7 +18,7 @@ sudo pacman -S --needed base-devel
 git clone https://github.com/Morganamilo/paru.git ~/PointFichiers/Paru
 cd ~/PointFichiers/Paru
 makepkg -si
-cd
+cd ~
 
 echo "------------"
 echo "// Pacman //"
