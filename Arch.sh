@@ -14,11 +14,7 @@ echo "----------"
 echo "// Paru //"
 echo "----------"
 
-sudo pacman -S --needed base-devel
-git clone https://github.com/Morganamilo/paru.git ~/PointFichiers/Paru
-cd ~/PointFichiers/Paru
-makepkg -si
-cd ~
+sh ~/PointFichiers/Scripts-Installation/Paru.sh
 
 echo "------------"
 echo "// Pacman //"
