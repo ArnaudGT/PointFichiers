@@ -1,7 +1,6 @@
-
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-PKGS=(
+Flatpaks=(
 'dev.goats.xivlauncher'
 'com.heroicgameslauncher.hgl'
 'org.kde.krita'
@@ -12,14 +11,12 @@ PKGS=(
 'net.rpcs3.RPCS3'
 'org.citra_emu.citra'
 'org.duckstation.DuckStation'
-'org.freedesktop.Platform.ffmpeg-full'
-'org.freedesktop.Platform.openh264'
 'org.libretro.RetroArch'
 'org.ryujinx.Ryujinx'
 'org.yuzu_emu.yuzu'
 )
 
-for PKG in "${PKGS[@]}"; do
-    echo "Installation de: ${PKG}"
-    flatpak install -y "$PKG"
+for Flatpak in "${Flatpaks[@]}"; do
+    echo "Installation de: ${Flatpak}"
+    flatpak install -y "$Flatpak"
 done
