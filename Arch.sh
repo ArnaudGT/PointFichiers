@@ -11,12 +11,6 @@ echo "----------"
 echo "// Paru //"
 echo "----------"
 
-echo "-------------"
-echo "// Polices //"
-echo "-------------"
-
-sudo pacman -Syu
-sudo pacman -S ttf-bitstream-vera ttf-croscore ttf-dejavu ttf-droid gnu-free-fonts ttf-ibm-plex ttf-liberation ttf-linux-libertine noto-fonts gsfonts ttf-roboto tex-gyre-fonts tex-gyre-fonts --noconfirm --needed
 
 echo "------------"
 echo "// Pacman //"
@@ -64,6 +58,36 @@ cd ~/PointFichiers/
 konsave -i Argama.knsv
 cd ~
 konsave -a Argama
+
+echo "-------------"
+echo "// Polices //"
+echo "-------------"
+
+FONTS=(
+'ttf-bitstream-vera'
+'ttf-croscore'
+'ttf-dejavu'
+'ttf-droid'
+'gnu-free-fonts'
+'ttf-ibm-plex'
+'ttf-liberation'
+'ttf-linux-libertine'
+'noto-fonts gsfonts'
+'ttf-roboto'
+'tex-gyre-fonts'
+'tex-gyre-fonts'
+'noto-fonts-cjk'
+'adobe-source-han-sans-otc-fonts'
+'adobe-source-han-serif-otc-fonts'
+'ttf-sazanami'
+'ttf-hanazono'
+'otf-ipafont'
+)
+
+for FONT in "${FONTS[@]}"; do
+    echo "INSTALLING: ${FONT}"
+    sudo pacman -S "$FONT" --noconfirm --needed
+done
 
 echo "----------------"
 echo "// Youtube-DL //"
