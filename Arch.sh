@@ -54,7 +54,7 @@ echo "---------------------------------------"
 echo "// Installations des packets Flatpak //"
 echo "---------------------------------------"
 
-sh ~/PointFichiers/Flatpak.sh
+sh ~/PointFichiers/Scripts-Installation/Flatpak.sh
 
 echo "-------------"
 echo "// Konsave //"
@@ -107,27 +107,13 @@ echo "--------------------"
 echo "// Fichiers Hosts //"
 echo "--------------------"
 
-git clone https://github.com/StevenBlack/hosts.git ~/PointFichiers/Hosts 
-cd ~/PointFichiers/Hosts
-echo "#requirements.txt"
-pip3 install --user -r requirements.txt
-echo "#testUpdateHostsFile.py"
-python3 testUpdateHostsFile.py
-echo "#updateHostsFile.py"
-python3 updateHostsFile.py -e gambling
-cd ~
+sh ~/PointFichiers/Scripts-Installation/Hosts.sh
 
 echo "--------------------"
 echo "// XP-Pen Drivers //"
 echo "--------------------"
 
-cd ~/PointFichiers/
-wget -O xp-pen.tar.gz --referer https://www.xp-pen.fr/ 'https://www.xp-pen.fr/download/file/id/1945/pid/292/ext/gz.html'
-mkdir ~/PointFichiers/XP-pen
-tar -x -f  xp-pen.tar.gz -C ~/PointFichiers/XP-pen --strip-components 1
-cd ~/PointFichiers/XP-pen
-sudo sh install.sh
-cd ~
+sh ~/PointFichiers/Scripts-Installation/XP-Pen-Drivers.sh
 
 echo "-----------------------------"
 echo "// Activation du Bluetooth //"
