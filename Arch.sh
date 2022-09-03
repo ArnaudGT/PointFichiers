@@ -46,23 +46,6 @@ for PKG in "${PKGS[@]}"; do
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 
-echo "---------------------------------------"
-echo "// Installations des packets Flatpak //"
-echo "---------------------------------------"
-
-sh ~/PointFichiers/Scripts-Installation/Flatpak.sh
-
-echo "-------------"
-echo "// Konsave //"
-echo "-------------"
-
-sudo pip install konsave
-konsave --noconfirm
-cd ~/PointFichiers/
-konsave -i Argama.knsv
-cd ~
-konsave -a Argama
-
 echo "-------------"
 echo "// Polices //"
 echo "-------------"
@@ -92,6 +75,18 @@ for FONT in "${FONTS[@]}"; do
     echo "INSTALLING: ${FONT}"
     sudo pacman -S "$FONT" --noconfirm --needed
 done
+
+echo "---------------------------------------"
+echo "// Installations des packets Flatpak //"
+echo "---------------------------------------"
+
+sh ~/PointFichiers/Scripts-Installation/Flatpak.sh
+
+echo "-------------"
+echo "// Konsave //"
+echo "-------------"
+
+sh ~/PointFichiers/Scripts-Installation/Konsave.sh
 
 echo "----------------"
 echo "// Youtube-DL //"
