@@ -16,3 +16,4 @@ adobe-source-han-serif-otc-fonts
 ttf-sazanami
 ttf-hanazono
 otf-ipafont
+ttf-roboto
